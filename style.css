@@ -18,15 +18,22 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--darkText);
 }
 
+.inset-text {
+    background-color: #49463F;
+    color: transparent;
+    text-shadow: 2px 2px 3px var(--darkBackground);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
 h1 
 {
     font-size: 3.5rem;
-    text-shadow: var(--lightBackground) 1px 1px 0px;
 }
 
 #large-sub-heading {
     font-size: 4rem;
-    text-shadow: 0 13.36px 8.896px #B0AB9B,0 -2px 1px #F2F0EC;
 }
 
 article {
