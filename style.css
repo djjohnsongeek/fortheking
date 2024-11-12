@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 
 {
     font-size: 3.5rem;
+    text-shadow: var(--lightBackground) 1px 1px 0px;
 }
 
 #large-sub-heading {
