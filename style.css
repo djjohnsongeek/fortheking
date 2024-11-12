@@ -16,13 +16,8 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--darkText);
 }
 
-.inset-text {
-    background-color: #49463F;
-    color: transparent;
-    text-shadow: 2px 2px 3px var(--darkBackground);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
+a:hover {
+    color: var(--orange);
 }
 
 h1 
@@ -30,12 +25,21 @@ h1
     font-size: 3.5rem;
 }
 
+article {
+    background-color: var(--forgroundSand);
+}
+
 #large-sub-heading {
     font-size: 4rem;
 }
 
-article {
-    background-color: var(--forgroundSand);
+.inset-text {
+    background-color: #49463F;
+    color: transparent;
+    text-shadow: 2px 2px 3px var(--darkBackground);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
 }
 
 .text-center {
