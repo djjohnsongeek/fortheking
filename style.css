@@ -3,11 +3,9 @@
     --lightBackground: #F2F0EC;
     --lightText: #F2F0EC;
     --darkText: #49463F;
+    --orange: #D14E33;
 }
 
-.text-center {
-    text-align: center;
-}
 
 html {
     background-color: var(--darkBackground);
@@ -40,10 +38,18 @@ article {
     background-color: var(--forgroundSand);
 }
 
+.text-center {
+    text-align: center;
+}
+
 .text-light {
     color: var(--lightText);
 }
 
 .text-dark {
     color: var(--darkText);
+}
+
+.text-orange {
+    color: var(--orange);
 }
