@@ -6,7 +6,7 @@
     --orange: #D14E33;
 }
 
-
+/* ### General Elements ### */
 html {
     background-color: var(--darkBackground);
     color: var(--darkText);
@@ -29,9 +29,13 @@ article {
     background-color: var(--forgroundSand);
 }
 
+/* ### Sepecific Elements ### */
+
 #large-sub-heading {
     font-size: 4rem;
 }
+
+/* ### Utilities ### */
 
 .inset-text {
     background-color: #49463F;
