@@ -1,0 +1,41 @@
+:root {
+    --darkBackground: #CCC6B4;
+    --lightBackground: #F2F0EC;
+    --lightText: #F2F0EC;
+    --darkText: #49463F;
+}
+
+.text-center {
+    text-align: center;
+}
+
+html {
+    background-color: var(--darkBackground);
+    color: var(--darkText);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--darkText);
+}
+
+h1 
+{
+    font-size: 3.5rem;
+}
+
+#large-sub-heading {
+    font-size: 4rem;
+    text-shadow: 0 13.36px 8.896px #B0AB9B,0 -2px 1px #F2F0EC;
+}
+
+article {
+    background-color: var(--forgroundSand);
+}
+
+.text-light {
+    color: var(--lightText);
+}
+
+.text-dark {
+    color: var(--darkText);
+}
