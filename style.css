@@ -1,9 +1,10 @@
 :root {
     --darkBackground: #CCC6B4;
     --lightBackground: #F2F0EC;
-    --lightText: #F2F0EC;
+    --lightText: white;
     --darkText: #49463F;
     --orange: #D14E33;
+    --brightOrange: #E74B1A;
     --shadow: rgba(73, 70, 63, 0.404);
 }
 
@@ -21,11 +22,32 @@ p {
     color: var(--darkText)
 }
 
+table, tr, th, td {
+    background-color: var(--lightBackground);
+    color: var(--darkText);
+}
+
+table {
+    box-shadow: var(--shadow);
+}
+
+td, th {
+    border-bottom: var(--darkBackground) 1px solid;
+}
+
+tfoot th, tfoot td {
+    border-top: var(--darkBackground) 2px solid;
+}
+
+th {
+    border-bottom: var(--darkBackground) 2px solid;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: normal;
     align-content: stretch;
 }
@@ -35,17 +57,24 @@ p {
     margin: 8px;
 }
 
+@media screen and (max-width: 768px) {
+    .image-container {
+        width: 100%;
+    }
+}
+
 img {
     border-radius: var(--pico-border-radius);
 }
 
 a:hover {
-    color: var(--orange);
+    color: var(--lightText);
     text-decoration: none;;
 }
 
 a {
     text-decoration: none;
+    color: var(--orange);
 }
 
 h1 
