@@ -118,6 +118,10 @@ article {
     margin-top: 20px;
 }
 
+.mt-100 {
+    margin-top: 100px;
+}
+
 .inset-text {
     background-color: #49463F;
     color: transparent;
